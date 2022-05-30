@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+  <name>lidar_perception_msgs</name>
+  <description>The lidar_perception_msgs package</description>
+  <version>1.1.5</version>
+  <maintainer email="anqingjiang0524@akane.waseda.jp">PeterJaq</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>actionlib_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <run_depend>actionlib_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>message_runtime</run_depend>
+  <run_depend>std_msgs</run_depend>
+</package>
